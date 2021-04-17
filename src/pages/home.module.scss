@@ -1,1 +1,47 @@
-// TODO
+.post {
+  max-width: 700px;
+  margin: 2.5rem 0 1rem;
+  transition: filter 2s;
+  &:hover {
+    strong {
+      color: var(--rose-50);
+    }
+  }
+
+  strong {
+    color: var(--gray-50);
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 2.12rem;
+  }
+  p {
+    color: var(--gray-100);
+    font-size: 1rem;
+    line-height: 1.37rem;
+  }
+  div {
+    color: var(--gray-300);
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 17px;
+
+    svg {
+      height: 1.2rem;
+      width: 1.2rem;
+      margin-right: 0.3rem;
+
+      margin-bottom: -5px;
+    }
+
+    span {
+      margin-left: 15px;
+    }
+  }
+}
+.morePosts {
+  background: transparent;
+  border: 0;
+  color: var(--rose-50);
+  margin-top: 2rem;
+  font-size: 1.12rem;
+}
